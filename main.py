@@ -42,5 +42,4 @@ def traingame(nums, res):
         print(solutions[0], "=", res)
         print(f'found {len(solutions)-1} other solutions resulting in {res}')
 
-traingame(sys.argv[1], sys.argv[2]) # should be 6*0+5+5
-# traingame(6550, 10)
+traingame(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else 10)

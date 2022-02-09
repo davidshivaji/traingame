@@ -15,3 +15,11 @@ $ python main.py 6550
 found 29 other solutions resulting in 10
 ```
 
+## Example 2
+Pass an optional desired result as the second argument.
+
+```
+$ python main.py 6283 21
+6/2*8-3 = 21
+found 5 other solutions resulting in 21
+```
