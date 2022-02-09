@@ -4,7 +4,7 @@ Given a four-digit number, using each digit only once and any 3 operators (+-/*)
 
 ## Usage
 ```
-$ python main.py DIGITS GOAL
+$ python main.py DIGITS OPTIONAL_RESULT
 ```
 
 ## Example
